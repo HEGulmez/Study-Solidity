@@ -1,0 +1,144 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_score",
+						"type": "uint16"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_newAge",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_newScore",
+						"type": "uint16"
+					}
+				],
+				"name": "changeStudentInfoMemory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_newAge",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_newScore",
+						"type": "uint16"
+					}
+				],
+				"name": "changeStudentInfoStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getStundentName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Data_Locations.sol": "Scchool"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Data_Locations.sol": {
+			"keccak256": "0xe54a3c80d4b8343c9fcf6de20a985dd168f2bd0762f7fb2e2cd328e8f51fd07c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f75c9b0acab4cbef03daed6ae83ebff545b93df63f5129988b723999d28a005",
+				"dweb:/ipfs/QmPiMFzoZVH5VvAQ53cLSnRqjXLRXDavQjVrPV9pvf8kWs"
+			]
+		}
+	},
+	"version": 1
+}
